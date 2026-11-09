@@ -135,6 +135,7 @@ button {
   position: relative;
   display: inline-block;
 }
+
 .cart-badge {
   position: absolute;
   top: -1px;
@@ -178,6 +179,14 @@ button {
   flex-flow: row wrap;
   list-style-type: none;
   justify-content: center;
+}
+
+.empty-cart {
+  width: 100%;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--dark-grey);
 }
 
 .product-list a {
